@@ -27,12 +27,18 @@ class MainActivity : AppCompatActivity() {
                 Toast.makeText(this@MainActivity,"Isi Form dengan lengkap",Toast.LENGTH_LONG).show()
             }else{
                 hasilview.setText("Nama : ${tfnama.text}\nWhatsApp : ${tfwa.text}\nEmail : ${tfemail.text}")
+                button_clear.setOnClickListener{
+                    tfnama.setText("")
+                    tfemail.setText("")
+                    tfwa.setText("")
+                }
             }
         }
         button_clear.setOnClickListener{
             tfnama.setText("")
             tfemail.setText("")
             tfwa.setText("")
+            hasilview.setText("")
         }
     }
 
