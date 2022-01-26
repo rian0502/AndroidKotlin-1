@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">KotlinAndroid-1</string>
+    <string name="hello_teman_eman">Hello Teman-eman</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="whatsapp">WhatsApp</string>
 </resources>
