@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
         val button_submit = findViewById<Button>(R.id.btnSubmit)
         val button_clear = findViewById<Button>(R.id.btnClear)
         val tfnama = findViewById<EditText>(R.id.tfNama)
