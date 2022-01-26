@@ -31,6 +31,7 @@ class MainActivity : AppCompatActivity() {
                     tfnama.setText("")
                     tfemail.setText("")
                     tfwa.setText("")
+                    hasilview.setText("")
                 }
             }
         }
