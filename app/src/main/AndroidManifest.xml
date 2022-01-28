@@ -11,6 +11,7 @@
         android:theme="@style/Theme.KotlinAndroid1">
         <activity
             android:name=".SecondActivity"
+            android:parentActivityName=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"
